@@ -43,19 +43,19 @@ We formally test the following hypotheses:
 
 - **H₀₁:** Word frequency does **not** predict stress level above chance.  
 - **H₁₁:** Word frequency **does** predict stress level above chance.
-&nbsp;
+<br>
 
 - **H₀₂:** Word frequency does **not** predict memory modality.  
 - **H₁₂:** Word frequency **does** predict memory modality.
-&nbsp;
+<br>
 
 - **H₀₃:** Time since event and stress level are uncorrelated.  
 - **H₁₃:** There is a correlation between time since event and stress.
-&nbsp;
+<br>
 
 - **H₀₄:** Semantic information does **not** improve classification.  
 - **H₁₄:** Semantic information **improves** classification over frequency-based models.
-&nbsp;
+<br>
 
 - **H₀₅:** No difference in classification accuracy across text segments.  
 - **H₁₅:** Some segments (beginning, middle, end) are more informative than others.
