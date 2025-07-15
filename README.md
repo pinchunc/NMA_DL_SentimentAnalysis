@@ -26,11 +26,14 @@ This pilot study will guide future work with more complex models and larger feat
 ---
 
 ## Project Structure
+<pre> ```text
 ├── data/ # Preprocessed data and feature representations
 ├── notebooks/ # Jupyter notebooks for EDA, modeling, evaluation
 ├── models/ # Trained models and experiment outputs
 ├── results/ # Evaluation results and figures
 └── README.md # Project overview and instructions
+```
+</pre>
 
 ---
 
@@ -40,15 +43,19 @@ We formally test the following hypotheses:
 
 - **H₀₁:** Word frequency does **not** predict stress level above chance.  
 - **H₁₁:** Word frequency **does** predict stress level above chance.
+&nbsp;
 
 - **H₀₂:** Word frequency does **not** predict memory modality.  
 - **H₁₂:** Word frequency **does** predict memory modality.
+&nbsp;
 
 - **H₀₃:** Time since event and stress level are uncorrelated.  
 - **H₁₃:** There is a correlation between time since event and stress.
+&nbsp;
 
 - **H₀₄:** Semantic information does **not** improve classification.  
 - **H₁₄:** Semantic information **improves** classification over frequency-based models.
+&nbsp;
 
 - **H₀₅:** No difference in classification accuracy across text segments.  
 - **H₁₅:** Some segments (beginning, middle, end) are more informative than others.
