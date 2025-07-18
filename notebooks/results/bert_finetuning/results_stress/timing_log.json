@@ -1,0 +1,58 @@
+[
+  {
+    "tag": "bert_uncased_L-2_H-128_A-2_bs8_lr0.0001",
+    "model": "bert_uncased_L-2_H-128_A-2",
+    "bs": 8,
+    "lr": 0.0001,
+    "seconds": 239.23376441001892
+  },
+  {
+    "tag": "bert_uncased_L-2_H-128_A-2_bs16_lr0.0001",
+    "model": "bert_uncased_L-2_H-128_A-2",
+    "bs": 16,
+    "lr": 0.0001,
+    "seconds": 143.41610980033875
+  },
+  {
+    "tag": "bert_uncased_L-2_H-128_A-2_bs32_lr0.0001",
+    "model": "bert_uncased_L-2_H-128_A-2",
+    "bs": 32,
+    "lr": 0.0001,
+    "seconds": 102.78400158882141
+  },
+  {
+    "tag": "bert_uncased_L-2_H-128_A-2_bs64_lr0.0001",
+    "model": "bert_uncased_L-2_H-128_A-2",
+    "bs": 64,
+    "lr": 0.0001,
+    "seconds": 97.09668493270874
+  },
+  {
+    "tag": "bert_uncased_L-2_H-128_A-2_bs32_lr3e-05",
+    "model": "bert_uncased_L-2_H-128_A-2",
+    "bs": 32,
+    "lr": 3e-05,
+    "seconds": 101.75082683563232
+  },
+  {
+    "tag": "bert_uncased_L-2_H-128_A-2_bs32_lr5e-05",
+    "model": "bert_uncased_L-2_H-128_A-2",
+    "bs": 32,
+    "lr": 5e-05,
+    "seconds": 122.43650650978088
+  },
+  {
+    "tag": "bert_uncased_L-2_H-128_A-2_bs32_lr0.0001",
+    "model": "bert_uncased_L-2_H-128_A-2",
+    "bs": 32,
+    "lr": 0.0001,
+    "seconds": 133.5609941482544
+  },
+  {
+    "tag": "bert_uncased_L-2_H-128_A-2_bs32_lr0.0003",
+    "model": "bert_uncased_L-2_H-128_A-2",
+    "bs": 32,
+    "lr": 0.0003,
+    "seconds": 103.07722473144531
+  }
+]
