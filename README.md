@@ -30,12 +30,15 @@ A transformer-based language model such as RoBERTa will show the highest accurac
 ---
 
 ## Project Structure
+<pre>
 ├── Transformer-based Model/ # DestiRoBERTa Model and results
 ├── data/ # Preprocessed data and feature representations
 ├── notebooks/ # Colab notebooks with previous versions of the code
 ├── models/ # Trained models and experiment outputs
 ├── results/ # Evaluation results and figures
 └── README.md # Project overview and instructions
+```
+</pre>
 
 ---
 
