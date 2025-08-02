@@ -1,4 +1,4 @@
-End-to-end PyTorch + Hugging Face pipeline using DistilRoBERTa to classify stress levels in stories.
+** End-to-end PyTorch + Hugging Face pipeline using DistilRoBERTa to classify stress levels in stories.**
 
 This includes:
 1.	Data loading and preprocessing
