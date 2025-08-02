@@ -1,5 +1,6 @@
 **End-to-end PyTorch + Hugging Face pipeline using DistilRoBERTa to classify stress levels in stories.**
 
+
 **This includes:**
 
 **1.**	Data loading and preprocessing
@@ -12,11 +13,11 @@
 
 **5.**	Custom model architecture with:
 
-  ⦁	Bidirectional LSTM
+    ⦁	Bidirectional LSTM
   
-  ⦁	Attention pooling
+    ⦁	Attention pooling
   
-  ⦁	CLS token fusion
+    ⦁	CLS token fusion
 
 **5.**	Training with Trainer
 
