@@ -13,15 +13,18 @@ This project investigates whether textual features—specifically word frequency
 
 ## Objectives
 
-We aim to address the following research questions:
-
-1. **Can we predict stress level from word frequency alone?**
-2. **Can we classify memory modality types from frequency data?**
-3. **Is time since the narrated event predictive of stress level?**
-4. **Does semantic information (e.g. BERT embeddings) improve classification accuracy?**
-5. **Are certain text segments (beginning, middle, end) more informative for classification?**
+**Main Objective:** Use Large Language Models (LLMs) to Assess Stressfulness using Narrative Memory Recall.
+**Specific Objectives:**
+1. Identify the best embedding for the dataset.
+2. Compare the results with shallow learning classifiers.
 
 This pilot study will guide future work with more complex models and larger feature sets.
+
+---
+
+## Hypotheses
+
+A transformer-based language model such as RoBERTa will show the highest accuracy using its own embedding (CLS) compared to shallow learning classifiers.
 
 ---
 
@@ -34,31 +37,6 @@ This pilot study will guide future work with more complex models and larger feat
 └── README.md # Project overview and instructions
 ```
 </pre>
-
----
-
-## Hypotheses
-
-We formally test the following hypotheses:
-
-- **H₀₁:** Word frequency does **not** predict stress level above chance.  
-- **H₁₁:** Word frequency **does** predict stress level above chance.
-<br>
-
-- **H₀₂:** Word frequency does **not** predict memory modality.  
-- **H₁₂:** Word frequency **does** predict memory modality.
-<br>
-
-- **H₀₃:** Time since event and stress level are uncorrelated.  
-- **H₁₃:** There is a correlation between time since event and stress.
-<br>
-
-- **H₀₄:** Semantic information does **not** improve classification.  
-- **H₁₄:** Semantic information **improves** classification over frequency-based models.
-<br>
-
-- **H₀₅:** No difference in classification accuracy across text segments.  
-- **H₁₅:** Some segments (beginning, middle, end) are more informative than others.
 
 ---
 
@@ -109,14 +87,15 @@ We use a subset of the [Hippocorpus dataset](https://huggingface.co/datasets/all
   * Advantage: fast, performant
 
 **Approach 6:**
-* Classifier (one of): finetuning pré-trained transformers (BERT and alike)
+* Classifier (one of): finetuning pre-trained transformers (BERT and alike)
   * Advantage: best in class mixture of Global semantics and contex nuances
   * Drawback: hardware, opaque
 
 ---
 
-## Key Results (Coming Soon)
-
+## Key Results
+* The DistilRoberta model achieved an accuracy of 72% using a fused embedding (CLS + Attention Pooling)
+* The best accuracy was achieved by the SVC model with a QWen-4B embedding: 76%
 
 ---
 
@@ -137,7 +116,7 @@ Contributors:
 - Liam Hart
 - Victor Martins
 - Hamid Abuwarda
-- Esteban Leon
+- Esteban León-Correa
 
 ---
 
