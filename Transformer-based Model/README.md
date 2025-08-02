@@ -15,9 +15,7 @@
 **5.**	Custom model architecture with:
 
     ⦁ Bidirectional LSTM
-  
     ⦁ Attention pooling
-  
     ⦁ CLS token fusion
 
 **5.**	Training with Trainer
