@@ -14,6 +14,7 @@ This project investigates whether textual features—specifically word frequency
 ## Objectives
 
 **Main Objective:** Use Large Language Models (LLMs) to Assess Stressfulness using Narrative Memory Recall.
+
 **Specific Objectives:**
 1. Identify the best embedding for the dataset.
 2. Compare the results with shallow learning classifiers.
