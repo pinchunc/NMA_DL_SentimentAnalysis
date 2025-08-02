@@ -18,4 +18,4 @@
 
 **7.**	Evaluation
 
-**8.**	visualizations (validation accuracy, training and validation loss, embeddings)
+**8.**	Visualizations (validation accuracy, training and validation loss, embeddings)
