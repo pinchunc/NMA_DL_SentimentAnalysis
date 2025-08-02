@@ -13,7 +13,6 @@
 **4.**	Custom dataset + focal loss
 
 **5.**	Custom model architecture with:
-
     ⦁ Bidirectional LSTM
     ⦁ Attention pooling
     ⦁ CLS token fusion
