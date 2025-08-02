@@ -12,13 +12,10 @@
 
 **4.**	Custom dataset + focal loss
 
-**5.**	Custom model architecture with:
-    ⦁ Bidirectional LSTM
-    ⦁ Attention pooling
-    ⦁ CLS token fusion
+**5.**	Custom model architecture with: Bidirectional LSTM, Attention pooling and CLS token fusion
 
-**5.**	Training with Trainer
+**6.**	Training with Trainer
 
-**6.**	Evaluation
+**7.**	Evaluation
 
-**7.**	visualizations (validation accuracy, training and validation loss, embeddings)
+**8.**	visualizations (validation accuracy, training and validation loss, embeddings)
