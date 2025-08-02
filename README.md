@@ -123,9 +123,8 @@ Contributors:
 
 ## Future Directions
 
-After the pilot, we plan to:
-- Incorporate pretrained embeddings (e.g. BERT, GloVe)
-- Investigate novel features for stress analysis
+- Enhance preprocessing in all models.
+- Fine-tune the BERT model and test it with other embeddings such as QWen-4B.
 
 ---
 
