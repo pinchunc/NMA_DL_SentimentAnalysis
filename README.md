@@ -33,8 +33,8 @@ A transformer-based language model such as RoBERTa will show the highest accurac
 <pre>
 ├── Transformer-based Model/ # DestiRoBERTa Model and results
 ├── data/ # Preprocessed data and feature representations
+├── embeddings/ # Embeddings used during the project
 ├── notebooks/ # Colab notebooks with previous versions of the code
-├── models/ # Trained models and experiment outputs
 ├── results/ # Evaluation results and figures
 └── README.md # Project overview and instructions
 ```
